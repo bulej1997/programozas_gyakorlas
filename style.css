@@ -1,0 +1,88 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+body {
+    background: rgb(72, 83, 112);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.main-menu-container {
+  /* a text-align center csak inline elemeknél működik, de a
+  a main-menu-item egy inline elem lesz.
+  a text align property le öröklődik egészen a main-menu-item-ig */
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 3px;
+    border-bottom-color: #68d2c3;
+    border-bottom-style: solid;
+}
+
+
+.main-menu-item{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 20px 0;
+    width: 120px;
+    
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 59px;
+}
+
+.submenu-item{
+    list-style: none;
+    padding: 15px 0;
+    width: 180px;
+    
+}
+.main-menu-item:hover .submenu{
+    display: block;
+    
+}
+
+.main-menu-item:hover{
+    background-color: rgba(41,47,48,.2);
+    
+    
+}
+.submenu-item:hover{
+    background-color: rgba(41,47,48,.7);
+}
+a{
+    text-decoration: none;
+    color: #e9e4ff;
+}
+.main-content{
+    width: 800px;
+    margin: 0 auto;
+    color: #e9e4ff;
+    
+}
+
+img{
+    float: right;
+    
+}
+
+header{
+    width: 400px;
+}
+
+
+main {
+  width: 600px;
+  line-height: 1.6;
+
+}
