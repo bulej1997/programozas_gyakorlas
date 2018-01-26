@@ -1,0 +1,75 @@
+/*csslint fallback-colors: false, order-alphabetical: false, box-model: false*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-container {
+  /* 100% lesz a szélessége: */
+  background-size: 100%;
+  position: relative;
+  /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
+  height: 30vw;
+    background-image: url(banner.jpg);
+    position: relative;
+    
+}
+header {
+  width: 70%;
+  font-weight: 300;
+    color: white;
+}
+
+.menu-item{
+    display: block;
+    background-color: rgba(63,117,134,0.3);
+    padding: 5px;
+     border-left: 4px;
+    border-left-style: solid;
+    border-left-color: rgba(129,225,255,0.63);
+    height: 30px;
+    
+   
+    
+}
+.menu-item:hover{
+    background-color: #4cc3c3;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;    
+}
+img {
+    float:right;
+}
+.company-intro{
+    position: absolute;
+    width: 50%;
+    background-color: rgba(40,70,66,0.4);
+    text-shadow: 2px, 2px, 3px rgba(0,0,0,0.65);
+    top: 50px;
+    right: 10vw;
+    padding: 20px;
+    
+}
+
+.menu{
+    width: 140px;
+    text-align: center;   
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(19,48,46);
+    color: white;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.company-image{
+    
+}
