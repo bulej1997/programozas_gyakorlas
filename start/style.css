@@ -12,64 +12,72 @@ body {
   position: relative;
   /* ennek az elemnek a magassága a böngésző szélességének 40%-a (verticalWidth) */
   height: 30vw;
-    background-image: url(banner.jpg);
-    position: relative;
-    
+  background-image: url(banner.jpg);
 }
 header {
   width: 70%;
   font-weight: 300;
-    color: white;
 }
 
-.menu-item{
-    display: block;
-    background-color: rgba(63,117,134,0.3);
-    padding: 5px;
-     border-left: 4px;
+.main-menu-item{
+    list-style: none;
+    margin-left: 400px;
+    background-color: rgba(63, 117, 134, 0.3);
+    padding: 25px 0;
+    width: 155px;
+    border-left: 3px;
     border-left-style: solid;
-    border-left-color: rgba(129,225,255,0.63);
-    height: 30px;
-    
-   
-    
-}
-.menu-item:hover{
-    background-color: #4cc3c3;
-    padding: 10px;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;    
-}
-img {
-    float:right;
-}
-.company-intro{
-    position: absolute;
-    width: 50%;
-    background-color: rgba(40,70,66,0.4);
-    text-shadow: 2px, 2px, 3px rgba(0,0,0,0.65);
-    top: 50px;
-    right: 10vw;
-    padding: 20px;
-    
-}
-
-.menu{
-    width: 140px;
-    text-align: center;   
-}
-
-footer{
-    text-align: center;
-    background-color:rgb(19,48,46);
+    border-left-color: rgba(129, 225, 255, 0.63);
     color: white;
+    text-align: center;
 }
 
-.main-container{
-    margin: 0 auto;
-    width: 900px;
+.company-intro{
+    width: 50%;
+    background-color: rgba(40, 70, 66, 0.4);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.65);
+    position: absolute;
+    right: 10vw;
+    top: 50px;
+    padding: 20px;
+    color: white;
+    font-size: 35px;
 }
 
 .company-image{
+    float: right;
+    padding-top: 30px;
+}
+
+.main-menu-item:hover{
+    cursor: pointer;
+    background: #4cc3c3;
+    padding: 23px 4px;
+    transition: all 0.2s ease-in-out;
+}
+footer{
+    color: white;
+    background-color: rgb(19, 48, 46);
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 20px
+}
+.main-container{
+    margin: 0 auto;
+    width: 1000px;
+    line-height: 2;
+    height: 650px;
+    padding-top: 20px;
     
 }
+.main-menu{
+    margin: 0;
+}
+
+.lead{
+    font-weight: bold;
+}
+.main-container>p{
+    width: 500px
+}
+
